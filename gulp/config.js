@@ -45,7 +45,7 @@ config.styles = {
 
   includePaths: [
     config.assets+'styles',
-    config.nodedir+'/normalize',
+    config.nodedir+'/normalize.css',
     config.nodedir+'/bourbon/app/assets/stylesheets',
     config.nodedir +'/bourbon-neat/app/assets/stylesheets'
   ],
