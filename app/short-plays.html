@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<section id="plays" class="plays">
+	<h1>Short Plays</h1>
+	{% assign play = site.short %}
+	<div class="plays__container">
+		{% for play in play %}
+		<div class="plays__play">
+			<p>{{play.title}}</p>
+      <p>{{play.runtime}}</p>
+      <p>{{play.cast}}</p>
+      <p>{{play.content}}</p>
+		</div>
+		{% endfor %}
+	</div>
+</section>
