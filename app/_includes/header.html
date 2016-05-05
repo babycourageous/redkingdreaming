@@ -1,0 +1,15 @@
+<header role="banner" class="header">
+  <nav role="navigation" class="navigation">
+    <a href="{{site.baseurl}}" class="navigation__logo">RKD</a>
+    <a href="javascript:void(0)" class="navigation__toggle" id="js-mobile-menu">MENU</a>
+    <ul id="js-navigation-menu" class="navigation__items">
+      {% for navitem in site.data.navigation %}
+      <li class="navigation__item">
+      {% if include.base %}<a href="{{site.url}}/{{include.base}}{{ navitem.href }}">{{ navitem.name }}</a>
+      {% else %}<a href="{{ navitem.href }}" class="navigation__link">{{ navitem.name }}</a>
+      {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
