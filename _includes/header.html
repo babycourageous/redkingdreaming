@@ -6,7 +6,7 @@
       <ul id="js-navigation-menu" class="navigation__items show">
         {% for navitem in site.data.navigation %}
         <li class="navigation__item">
-          <a href="{{site.baseurl}}{{ navitem.href }}" class="navigation__link">{{ navitem.name }}</a>
+          <a href="{{site.baseurl}}/{{ navitem.href }}" class="navigation__link">{{ navitem.name }}</a>
         </li>
         {% endfor %}
       </ul>
