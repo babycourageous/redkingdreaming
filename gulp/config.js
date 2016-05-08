@@ -45,10 +45,10 @@ config.styles = {
 
   includePaths: [
     config.assets+'styles',
-    config.nodedir+'/normalize.css',
-    config.nodedir+'/bourbon/app/assets/stylesheets',
+    config.nodedir + '/normalize.css',
+    config.nodedir + '/bourbon/app/assets/stylesheets',
     config.nodedir +'/bourbon-neat/app/assets/stylesheets',
-    config.nodedir+'/slick-carousel/slick'
+    config.nodedir+'/slick-carousel/slick',
   ],
 
 	autoprefixer: {
