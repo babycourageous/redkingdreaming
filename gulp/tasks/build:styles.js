@@ -30,6 +30,8 @@ module.exports = function(gulp, plugins, config) {
 	  .pipe(plugins.sourcemaps.write())
 	  // save to jekyll destination directory
 	  .pipe(gulp.dest(config.styles.jekylldest))
+		// save to jekyll _site directory (for development)
+		.pipe(gulp.dest(config.styles.devdest))
 	  // inject CSS into browser via browsersync
 	  .pipe(plugins.browsersync.stream());
 	};
