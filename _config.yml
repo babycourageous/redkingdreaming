@@ -16,8 +16,4 @@ defaults:
       layout: plays
 
 
-exclude: ["_assets"]
-keep_files: ["assets"]
-
-source: ./app
-destination: ./dist
+exclude: ["_assets", "gulp", "node_modules", ".gulpfile", "package.json", "README.md"]
