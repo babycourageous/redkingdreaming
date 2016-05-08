@@ -94,8 +94,9 @@ gulp.task('serve', ['build'], function() {
 	gulp.watch('app/_assets/images/**/*.+(jpg|png|jpeg|gif)', ['build:images']);
 	// WATCH svg --> build:svg
 	gulp.watch('app/_assets/svg/**/*.svg', ['build:svg']);
-	// WATCH _posts --> build:jekyll:serve
-	gulp.watch('_posts/**/*.+(md|markdown|MD)', ['build:jekyll:serve']);
+	// WATCH _plays --> build:jekyll:serve
+  gulp.watch('app/_short/**/*.+(md|markdown|MD)', ['build:jekyll:serve']);
+  gulp.watch('app/_long/**/*.+(md|markdown|MD)', ['build:jekyll:serve']);
 	// WATCH html --> build:jekyll:serve
 	// -- **/*.html, !_site/**/*/*.*
 	gulp.watch(['**/*.html', '!dist/**/*.*'], ['build:jekyll:serve']);
