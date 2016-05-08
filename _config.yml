@@ -4,8 +4,18 @@ baseurl: ""                      # the subpath of your site, e.g. /blog/
 collections:
   short:
     output: false
+  full:
+    output: false
 
-title:
+defaults:
+  -
+    scope:
+      path: ""
+      type: "short"
+    values:
+      layout: plays
+
+
 exclude: ["_assets"]
 keep_files: ["assets"]
 
