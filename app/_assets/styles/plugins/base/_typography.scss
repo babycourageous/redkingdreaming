@@ -23,14 +23,14 @@ p {
 }
 
 a {
-  color: $action-color;
+  color: rkd-color('primary', 'light');
   text-decoration: none;
   transition: color $base-duration $base-timing;
 
   &:active,
   &:focus,
   &:hover {
-    color: shade($action-color, 25%);
+    color: rkd-color('primary');
   }
 }
 
