@@ -1,30 +1,43 @@
 /*
- * 2- PLUGINS
- */
-@import 'normalize';
-@import 'bourbon';
-@import 'neat';
-
-/*
  * 1- UTILS
  */
 @import 'utils/variables';
 @import 'utils/mixins';
 @import 'utils/functions';
 
- /*
+
+/*
+ * 2- PLUGINS
+ */
+@import 'normalize';
+@import 'bourbon';
+@import "plugins/base/base";
+@import 'neat';
+
+
+/*
  * 3- BASE
  */
+@import 'base/general';
+@import 'base/typography';
 
 /*
  * 4- LAYOUT
  */
+@import 'layout/navigation';
 @import 'layout/footer';
+
 
 /*
  * 5- MODULES
  */
+@import 'modules/about';
+@import 'slick.scss';
+@import 'modules/hero';
 
- /*
+
+
+/*
  * 6- PAGES
  */
+@import 'pages/plays';
