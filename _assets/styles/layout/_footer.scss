@@ -27,13 +27,11 @@
     padding: 0;
 
     @include media($medium-screen-up) {
-      @include span-columns(3);
-      @include omega(2n);
+      @include span-columns(2);
     }
 
     @include media($large-screen-up) {
-      @include omega-reset(2n);
-      @include span-columns(3);
+      @include span-columns(4);
 
     }
 
