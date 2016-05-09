@@ -8,7 +8,7 @@ module.exports = function(gulp, plugins, config) {
         quality: '65-75'
       })]
     }))
-		.pipe(gulp.dest(config.images.jekylldest));
+		.pipe(gulp.dest(config.images.jekylldest))
 		.pipe(gulp.dest(config.images.devdest));
   }
 };

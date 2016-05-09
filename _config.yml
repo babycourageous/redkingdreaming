@@ -7,13 +7,5 @@ collections:
   full:
     output: false
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "short"
-    values:
-      layout: plays
-
 
 exclude: ["_assets", "gulp", "node_modules", ".gulpfile", "package.json", "README.md"]
