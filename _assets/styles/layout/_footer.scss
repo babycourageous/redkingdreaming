@@ -26,6 +26,10 @@
     margin-bottom: $base-spacing * 2;
     padding: 0;
 
+    h3 {
+      margin:em(10) 0 0;
+    }
+
     @include media($medium-screen-up) {
       @include span-columns(2);
     }
