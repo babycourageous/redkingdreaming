@@ -1,5 +1,9 @@
-url: "" # the base hostname & protocol for your site
+# Setup
+url: http://www.redkingdreaming.com # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
+title: redkingdreaming
+tagline: the online portfolio of playwright steve yockey
+
 
 collections:
   short:
