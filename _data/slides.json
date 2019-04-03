@@ -1,0 +1,32 @@
+[
+  {
+    "image": "heavier.jpg",
+    "title": "Heavier Than...",
+    "tagline": "it's a play ..."
+  },
+  {
+    "image": "pluto.jpg",
+    "title": "Pluto",
+    "tagline": "it's a play ..."
+  },
+  {
+    "image": "niagra.jpg",
+    "title": "Niagra",
+    "tagline": "it's a play ..."
+  },
+  {
+    "image": "afterlife.jpg",
+    "title": "Afterlife",
+    "tagline": "it's a play ..."
+  },
+  {
+    "image": "wolves.jpg",
+    "title": "Wolves",
+    "tagline": "it's a play ..."
+  },
+  {
+    "image": "sleepy.jpg",
+    "title": "Sleepy",
+    "tagline": "it's a play ..."
+  }
+]
