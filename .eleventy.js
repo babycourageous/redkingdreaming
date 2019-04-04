@@ -20,6 +20,8 @@ module.exports = function(eleventyConfig) {
     return `${text}`;
   });
 
+  eleventyConfig.addPassthroughCopy("admin");
+
   // {{ array | where: key,value }}
   eleventyConfig.addFilter("where", function(array, key, value) {
     return array.filter(item => item.data[key] === value);
