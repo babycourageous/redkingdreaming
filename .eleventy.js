@@ -4,16 +4,20 @@ module.exports = function(eleventyConfig) {
   // Aliases are in relation to the _includes folder
   eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
 
-  eleventyConfig.addFilter("md", function(value) {
+  eleventyConfig.addFilter("mdnop", function(value) {
     let result;
     try {
       result = marked(value).trim();
-      //result = result.replace(/^<p>|<\/p>$/g, '')
+      result = result.replace(/^<p>|<\/p>$/g, "");
       return result;
     } catch (e) {
       console.error("Error processing markdown:", e);
       return value;
     }
+  });
+
+  eleventyConfig.addShortcode("texttohtml", function(text) {
+    return `${text}`;
   });
 
   // {{ array | where: key,value }}
