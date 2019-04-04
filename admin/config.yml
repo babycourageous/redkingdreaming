@@ -1,3 +1,23 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+
+# Media files will be stored in the repo under this folder structure
+media_folder: "_assets/uploads"
+public_folder: "assets/uploads"
+
+collections:
+  - label: "Website Settings"
+    name: "website-settings"
+    files:
+      - label: "SEO Settings"
+        name: "seo-settings"
+        file: "_data/seo.json"
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: Description
+            name: description
+            widget: "string"
+            pattern: ["^.{120,158}$", "Must be between 120 and 158 characters."]
