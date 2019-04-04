@@ -7,5 +7,16 @@
 	</main>
 	{% include "footer.html" %}
 	<script type="text/javascript" src="/assets/bundle.js"></script>
+	<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
 </html>
