@@ -42,3 +42,20 @@ collections:
           - label: Bio
             name: bio
             widget: markdown
+      - label: Slides
+        name: slides
+        file: '_data/slides.json'
+        fields:
+          - label: Photos
+            name: photos
+            widget: list
+            fields:
+              - label: Photo
+                name: image
+                widget: string
+              - label: Title
+                name: title
+                widget: string
+              - label: Tagline
+                name: tagline
+                widget: string
