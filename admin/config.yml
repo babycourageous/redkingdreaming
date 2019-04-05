@@ -52,7 +52,7 @@ collections:
             fields:
               - label: Photo
                 name: image
-                widget: string
+                widget: image
               - label: Title
                 name: title
                 widget: string
