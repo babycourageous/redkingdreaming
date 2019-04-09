@@ -35,13 +35,16 @@ collections:
   - label: Content
     name: content
     files:
-      - label: Bio
-        name: bio
-        file: '_data/bio.json'
+      - label: Profile
+        name: profile
+        file: '_data/profile.json'
         fields:
           - label: Bio
             name: bio
             widget: markdown
+          - label: Profile Photo
+            name: photo
+            widget: image
       - label: Slides
         name: slides
         file: '_data/slides.json'
