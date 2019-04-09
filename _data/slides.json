@@ -6,27 +6,27 @@
       "tagline": "it's a play ..."
     },
     {
-      "image": "pluto.jpg",
+      "image": "/assets/images/pluto.jpg",
       "title": "Pluto",
       "tagline": "it's a play ..."
     },
     {
-      "image": "niagra.jpg",
+      "image": "/assets/images/niagra.jpg",
       "title": "Niagra",
       "tagline": "it's a play ..."
     },
     {
-      "image": "afterlife.jpg",
+      "image": "/assets/images/afterlife.jpg",
       "title": "Afterlife",
       "tagline": "it's a play ..."
     },
     {
-      "image": "wolves.jpg",
+      "image": "/assets/images/wolves.jpg",
       "title": "Wolves",
       "tagline": "it's a play ..."
     },
     {
-      "image": "sleepy.jpg",
+      "image": "/assets/images/sleepy.jpg",
       "title": "Sleepy",
       "tagline": "it's a play ..."
     }
