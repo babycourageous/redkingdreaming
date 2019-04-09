@@ -1,7 +1,7 @@
 {
   "photos": [
     {
-      "image": "heavier.jpg",
+      "image": "/assets/images/heavier.jpg",
       "title": "Heavier Than...",
       "tagline": "it's a play ..."
     },
