@@ -1,0 +1,28 @@
+{
+  "theater": [
+    {
+      "agent": "Beth Blickers",
+      "agency": "APA",
+      "address": {
+        "street": "135 West 50th Street, 17th Floor",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10020"
+      },
+      "phone": "212-621-3098"
+    }
+  ],
+  "television": [
+    {
+      "agent": "Zachary Carlisle",
+      "agency": "Verve",
+      "address": {
+        "street": "San Vicente Blvd, Suite 100",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90048"
+      },
+      "phone": "310-558-2424"
+    }
+  ]
+}
