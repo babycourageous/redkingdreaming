@@ -1,13 +1,15 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>{{site.title}} | {{site.tagline}}</title>
-
-  <link rel="icon" href="favicon.ico">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="description" content="{{seo.description}}">
+  <link rel="shortcut icon" type="image/png" href="favicon-196x196.png">
+  <link rel="shortcut icon" sizes="196x196" href="favicon-196x196.png">
+  <!-- Facebook and Twitter integration -->
+  {% include "social.html" %}
+  <link rel="canonical" href="{{site.url}}">
+  {% include "favicons.html" %}
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="/assets/styles.css">
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
