@@ -10,6 +10,20 @@ collections:
   - label: 'Website Settings'
     name: 'website-settings'
     files:
+      - label: 'Social Network Settings'
+        name: 'social-settings'
+        file: '_data/social.json'
+        fields:
+          - label: 'Twitter'
+            name: 'twitter'
+            widget: 'object'
+            fields:
+              - label: 'Name'
+                name: 'name'
+                widget: 'string'
+              - label: 'Twitter Handle'
+                name: 'url'
+                widget: 'string'
       - label: 'SEO Settings'
         name: 'seo-settings'
         file: '_data/seo.json'
@@ -27,9 +41,6 @@ collections:
         fields:
           - label: Email
             name: email
-            widget: string
-          - label: Twitter
-            name: twitter
             widget: string
 
   - label: Content
