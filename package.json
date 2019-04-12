@@ -18,7 +18,6 @@
     "build:assets:svg": "svg-sprite --svg-xmldecl=false --svg-doctype=false --symbol --symbol-inline=true --symbol-dest=. --dest=_includes _assets/svg/*.svg",
     "build:assets:favicons": "cp _assets/favicons/* _site",
     "build:purgecss": "purgecss -c purgecss.config.js -o _site/assets",
-    "build:11ty:serve": "npx eleventy --serve",
     "build:11ty": "npx eleventy",
     "watch:css": "chokidar '_assets/css/**/*' 'tailwind.config.js' --command 'run-s build:assets:css browsersync:reload'",
     "watch:js": "chokidar '_assets/javascript/*' --command 'run-s build:assets:js browsersync:reload'",
