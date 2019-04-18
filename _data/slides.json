@@ -24,6 +24,11 @@
       "image": "/assets/images/wolves.jpg",
       "title": "Wolves",
       "tagline": "it's a play ..."
+    },
+    {
+      "image": "/assets/images/web-28.jpg",
+      "title": "verystill",
+      "tagline": "it's a play..."
     }
   ]
 }
