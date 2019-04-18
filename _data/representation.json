@@ -15,14 +15,14 @@
   "television": [
     {
       "agent": "Zachary Carlisle",
-      "agency": "Verve",
+      "agency": "ICM",
       "address": {
-        "street": "San Vicente Blvd, Suite 100",
-        "city": "Los Angeles",
+        "street": "10250 Constellation Blvd",
+        "city": "Century City",
         "state": "CA",
-        "zip": "90048"
+        "zip": "90067"
       },
-      "phone": "310-558-2424"
+      "phone": "310-550-4126"
     }
   ]
 }
